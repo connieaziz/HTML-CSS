@@ -1,0 +1,75 @@
+body{
+	background-color: #ddd;
+	background-image: url(../img/wow.jpg);
+	font-family: arial;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #222;
+}
+
+.sign-up{
+	max-width: 400px;
+	min-height: 300px;
+	margin: 10% auto; 
+}
+.sign-up h2{
+	margin: 0 0 10px 5px;
+	color: purple;
+}
+
+.sign-up form{
+	box-shadow: 0 46px 5px rgba(255,165,0);
+	padding: 30px;
+	margin:5px;
+	border-radius: 5px; 
+	background-color: rgba(255,255,255,0.37);
+}
+
+.sign-up form ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.sign-up form ul li{
+	padding: 0px;
+	margin: 0px 0 10px 0;
+	list-style: none;
+}
+
+.sign-up form ul li:last-child{
+	margin: 0px;
+}
+
+.sign-up form label{
+	display: block;
+	padding-bottom: 5px;
+	font-size: 12px;
+}
+
+.sign-up input+label{
+	display: inline;
+	padding: 10px;
+}
+
+.sign-up form input[type=text],.sign-up input[type=email],.sign-up input[type=password]{
+	display: block;
+	width: 328px;
+	border: 1px solid #ccc;
+	height: 35px;
+	text-indent: 10px;
+	border-radius: 5px;
+}
+
+.sign-up form input[type=radio]{
+	padding-right: 20px;
+}
+
+.sign-up form input[type=SUBMIT]{
+	width: 330px;
+	background-color: #555;
+	color: #fff;
+	height: 40px;
+	border:none;
+	border-radius: 5px;
+}
+
