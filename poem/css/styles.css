@@ -1,0 +1,82 @@
+body{
+	background-repeat: no-repeat;background-image: url(../img/pic.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-size: 20px;
+	padding-bottom: 50px;
+}
+
+h1{
+	color: purple; 
+}
+
+.container{
+	width: 600px;
+	background-color: #D1D3D4;
+	min-height: 1000px;
+	padding: 30px;
+	margin: 0 auto;	
+}
+
+.column img{
+	float: left;
+}
+
+.cont{
+	float:right;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 100px;
+}
+
+.cont.ivy{
+	float: right;
+	padding-top: 40px;
+}
+
+.cont.col{
+	padding-top: 40px;
+
+}
+
+.tin{
+	float:left;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 100px;
+}
+
+.tin.sketch{
+	float: right;
+}
+
+
+/**********************************************************
+*nav*
+**********************************************************/
+nav{
+	background-color: #262262;
+	padding: 5px ;
+}
+nav ul{
+	margin: 0;
+	list-style: none;
+	line-height: normal;
+}
+nav ul li a{
+	display: block;
+	margin-left: 1px;
+	padding: 7px 20px 7px 20px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	font-weight: bolder;
+	color: #fff;
+}
+/**********************************************************
+*nav*
+**********************************************************/
