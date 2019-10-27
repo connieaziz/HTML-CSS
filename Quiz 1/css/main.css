@@ -1,0 +1,43 @@
+body {
+	background-color:indigo;
+     }
+
+ h1 {
+ 	color: blue;
+ 	text-align: center;
+ 	font-size: 50px;
+    }
+
+
+ p {
+   font-size: 30px;
+   font-family: verdana;
+}
+ 
+ .panel{
+ 	color: black; background-color: purple; text-align: left; 
+ }
+.test{
+	color: black;
+	background-color: yellow;
+	text-align: left;
+}
+.left{
+	color: white;
+	background-color: orange;
+	text-align: left;
+}
+
+body{
+	margin:5px;
+	padding:3px;
+	background-color: purple;
+}
+
+header{
+	border-color: blue;
+	border-bottom-width :1px;
+	border-bottom-style: solid;
+	padding-right: 5px;
+	text-decoration: none;
+}
